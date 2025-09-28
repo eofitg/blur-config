@@ -8,5 +8,6 @@
 - `120to60.cfg` : from a random YouTube video (maybe owqnd i forgot)
 - `240to60.cfg` : from qbedwars' render settings, it's pretty smooth but maybe a little vague
 - `not-too-old.cfg`: old but still usable
+- `for-pr.cfg`: for re-rendering the premiere output from 240 to 120, its vision should be just like the `latest.cfg`
 
 The most up-to-date : `latest.cfg` 
