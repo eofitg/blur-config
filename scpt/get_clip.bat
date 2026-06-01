@@ -1,0 +1,1 @@
+ffmpeg -ss 00:00:14 -i "Replay_2025-09-10_21-53-11.mp4" -t 00:00:15 -c:v hevc_nvenc -preset slow -cq 18 -b:v 90M -maxrate 110M -c:a aac -b:a 640k -strict experimental "wt.mp4"

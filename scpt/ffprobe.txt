@@ -1,0 +1,2 @@
+ffprobe -show_packets -select_streams a/v -of csv ".mp4" > out.csv
+ffprobe -select_streams a/v -show_frames -of csv ".mp4" > out.csv

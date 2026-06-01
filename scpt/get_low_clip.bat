@@ -1,0 +1,1 @@
+ffmpeg -ss 00:00:10 -i "Replay_2025-06-12_21-08-23 - blur ~ 120fps (1440, 2.4).mp4" -t 00:00:17 -c:v hevc_nvenc -preset slow -cq 18 -b:v 8M -maxrate 15M -c:a aac -b:a 320k -strict experimental "combo.mp4"
